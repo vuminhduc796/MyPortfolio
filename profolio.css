@@ -22,13 +22,26 @@ header > h2 {
     font-style: italic;
     font-weight: lighter;
 }
+.skillHide {
+    display: none;
+    width: 95%;
+    transition: 2s;
+  }
 
+.skill:hover {
+    width: 50%;
+  } 
+.skill:hover .skillHide{
+    display: flex;
+    flex-direction: column;
+  } 
 .column {
     float: left;
     padding: 0;
     overflow: hidden;
     background-color:#e3e3e3;
     border-left: 2px solid maroon;
+
 }
 .left {
     width: 32%;
@@ -47,7 +60,7 @@ div > element >h1 {
     font-size: 20px;
 }
 .left >element > h2 {
-    font-size: 13px;
+    font-size: 14px;
 }
 div > element > h2 {
     padding-left: 5px;
@@ -59,6 +72,13 @@ div > element > h3 {
     text-decoration: underline;
     font-style: italic;
     line-height: 0px;
+}
+div > element > p {
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: lighter;
+    text-decoration: none;
+    line-height: 16px;
 }
 @media screen and (max-width: 400px) {
     .column {

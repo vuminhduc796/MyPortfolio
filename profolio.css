@@ -28,13 +28,12 @@ header > h2 {
     transition: 2s;
   }
 
-.skill:hover {
-    width: 50%;
-  } 
-.skill:hover .skillHide{
+.skill:hover > .skillHide{
     display: flex;
     flex-direction: column;
+    transition: 2s;
   } 
+
 .column {
     float: left;
     padding: 0;

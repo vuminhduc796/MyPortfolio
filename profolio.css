@@ -50,7 +50,21 @@ header > h2 {
     float: right;
     width: 62%;
 }
+.button {
+    float:left;
+    padding: 6px;
+    background:none;
+    background-color:#e3e3e3 ;
+    width: 50%;
+    box-shadow: none;
+    border: 0;
 
+}
+#button-language{
+    border-bottom: 2px solid maroon;
+    border-left: 2px solid maroon;
+    background-color: #cfcfcf;
+}
 div > element >h1 {
     padding-top: 23px;
     border-bottom:2px solid maroon;
@@ -79,6 +93,17 @@ div > element > p {
     text-decoration: none;
     line-height: 16px;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: maroon;
+    opacity: 0.4;
+    color: white;
+    text-align: center;
+ }
 @media screen and (max-width: 400px) {
     .column {
       width: 100%;
